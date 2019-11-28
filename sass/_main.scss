@@ -180,9 +180,10 @@ main {
   }
 
   .pagination {
-    clear: both;
     font-family: $decoration-font-family;
     margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
 
     a {
       color: #34495e;
@@ -201,14 +202,12 @@ main {
 }
 
 .next {
-  float: right;
   &:hover {
     transform: translateX(4px);
   }
 }
 
 .previous {
-  float: left;
   &:hover {
     transform: translateX(-4px);
   }
